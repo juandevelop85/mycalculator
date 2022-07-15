@@ -53,7 +53,7 @@ func (c calc) operate(input string, operation string) (int, error) {
 
 // }
 
-func readInput() string {
+func ReadInput() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	return scanner.Text()
